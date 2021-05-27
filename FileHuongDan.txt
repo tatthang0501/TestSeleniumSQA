@@ -1,0 +1,17 @@
+Example: file Maven test
+Scemal : database
+Chom90 : File drive để sử dụng test chrome driver
+
+* Nên để database về defaul
+
+file *tsx: file chỉnh thêm id chỉ cần copy all vào từng mục tương ứng, 
+không thay đổi về mặt hiển thi
+
+Navigation: src>components>Header>Navigation.tsx
+Login: src>pages>Login>Login.tsx
+ CourseRegister: src>pages>CourseRegister>CourseRegister.tsx
+
+
+
+khi chạy nên để ý trường setUp thay đổi đường dẫn tuỳ máy mọi người!!
+ex:   System.setProperty("webdriver.chrome.driver", "C:\\Users\\M'penGu\\Desktop\\chom90\\chromedriver.exe")
